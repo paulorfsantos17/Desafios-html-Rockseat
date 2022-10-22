@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contato</title>
+</head>
+<style>
+  label {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin:0  auto;
+  }
+
+  #input {
+    display: block;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+</style>
+<body>
+  <form>
+    <fieldset>
+      <legend>Entre em contato</legend>
+        <label>Assunto:
+          <select>
+            <option value="0">Suporte</option>
+            <option value="1">Sugestão</option>
+            <option value="2">Reclamação</option>
+          </select>
+      </label>
+
+        <label>
+          Nome Completo:
+          <input type="text">
+        </label>
+
+
+        <label>
+          E-mail:
+          <input type="text">
+        </label>
+
+
+        <label>
+          Mensagem:
+          <textarea rows="4" cols="50"> </textarea>
+        </label>
+        <label id="input">
+          <input type="checkbox"> Aceito receber novidades por e-mail
+        </label>
+
+        <button>Enviar</button>
+
+
+        
+
+    </fieldset>
+  </form>
+</body>
+</html>
